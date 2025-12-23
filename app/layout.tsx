@@ -2,7 +2,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "スポチャン家練アプリ",
+  title: "スポチャン練習アプリ",
   description: "不定期クラップ音で反応トレーニング",
 };
 

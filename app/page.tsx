@@ -9,7 +9,7 @@ export default function Home() {
       <div className="header">
         <h1>
           <span className="header-icon">🥋</span>
-          スポチャン家練アプリ
+          スポチャン練習アプリ
         </h1>
         <p style={{ fontSize: "16px", opacity: 0.95 }}>
           不定期クラップ音で反応トレーニング
