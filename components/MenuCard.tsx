@@ -1,5 +1,8 @@
+"use client";
+
 import Link from "next/link";
 import { Menu, categoryIcons } from "@/lib/menus";
+import { saveScrollPosition } from "./ScrollRestoration";
 
 interface MenuCardProps {
   menu: Menu;
@@ -23,7 +26,7 @@ const getMenuIcon = (category: string, id: string): string => {
 
 export default function MenuCard({ menu }: MenuCardProps) {
   return (
-    <Link href={`/menu/${menu.id}`}>
+    <Link href={`/menu/${menu.id}`} onClick={saveScrollPosition}>
       <div className="menu-card">
         <div
           style={{

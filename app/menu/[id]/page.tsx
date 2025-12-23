@@ -43,7 +43,7 @@ export default async function MenuPage({ params }: PageProps) {
         </p>
       </div>
       <div className="container">
-        <Link href="/">
+        <Link href="/" scroll={false}>
           <button className="btn btn-back">← メニュー一覧に戻る</button>
         </Link>
         <LessonPlayer menu={menu} />

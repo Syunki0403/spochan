@@ -1,11 +1,13 @@
 import { getMenusByCategory, categoryOrder, categoryIcons } from "@/lib/menus";
 import MenuCard from "@/components/MenuCard";
+import ScrollRestoration from "@/components/ScrollRestoration";
 
 export default function Home() {
   const menusByCategory = getMenusByCategory();
 
   return (
     <div>
+      <ScrollRestoration />
       <div className="header">
         <h1>
           <span className="header-icon">🥋</span>
